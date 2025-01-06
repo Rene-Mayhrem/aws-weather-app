@@ -40,12 +40,7 @@ This application fetches weather app data from the OpenWeather API and saves it 
 
 ## Usage 
 
-The application will fetch weather data fro the following cities:
-  - Philadelphia
-  - Seattle
-  - New York
-
-The weather data will be saved to the specified AWS S3 bucket.
+The application will fetch weather data from the cities added into the json file at **/data/cities.json** file. The weather data will be saved to the specified AWS S3 bucket.
 
 ## AWS Configuration
 
