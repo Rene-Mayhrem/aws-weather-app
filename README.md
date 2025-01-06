@@ -1,4 +1,4 @@
-# NBA DevOps Challenge 
+# Weather Dashboard Application
 
 This application fetches weather app data from the OpenWeather API and saves it to AWS S3 Bucket. The application. The application is containerized using Docker.
 
