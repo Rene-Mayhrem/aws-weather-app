@@ -1,4 +1,4 @@
-# NBA DevOps Challenge 
+# Weather Dashboard Application
 
 This application fetches weather app data from the OpenWeather API and saves it to AWS S3 Bucket. The application. The application is containerized using Docker.
 
@@ -12,7 +12,7 @@ This application fetches weather app data from the OpenWeather API and saves it 
 
 1. Clone this repository:
     ```sh
-    git clone https://github.com/your-repo/weather-dashboard.git
+    git clone https://github.com/Rene-Mayhrem/aws-weather-app.git
     cd weather-dashboard
     ```
 
