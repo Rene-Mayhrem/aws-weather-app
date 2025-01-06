@@ -12,7 +12,7 @@ This application fetches weather app data from the OpenWeather API and saves it 
 
 1. Clone this repository:
     ```sh
-    git clone https://github.com/your-repo/weather-dashboard.git
+    git clone git@github.com:Rene-Mayhrem/aws-weather-app.git
     cd weather-dashboard
     ```
 
