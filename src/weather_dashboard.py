@@ -76,7 +76,11 @@ def main():
     # Create bucket if needed
     dashboard.create_bucket_if_not_exists()
     
-    cities = ["Philadelphia", "Seattle", "New York"]
+    # cities = ["Philadelphia", "Seattle", "New York"]
+    # Load cities from JSON file
+    with open ('data/cities,json') as file_input:
+        data = json.load(file_input)
+        cities = data['cities']
     
     for city in cities:
         print(f"\nFetching weather for {city}...")
